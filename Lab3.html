@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			Med inspiration från:
+			http://getbootstrap.com/
+			https://www.w3schools.com/bootstrap/
+		-->
+		<title>JavaScript för webbutveckling (ISGB15) 5hp</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<style type="text/css">
+			.ulChildMax { 	list-style-image: none;
+							list-style-type: none;
+							display: block;
+						}
+			.ulChildMin { display: none; }
+			li { font-size: 24px; }
+		</style>
+	</head>
+
+	<body>
+
+		<div class="jumbotron text-center">
+		  <h1>Laboration 3</h1>
+			<h4>Uppgift från Karlstads Universitet 2017</h4>
+		</div>
+
+		<div class="container-fluid">
+
+			<ul>
+				<li class="glyphicon glyphicon-minus" title="parent" id="liParent1">
+					<ul class="ulChildMax" title="child" id="ulChild1">
+						<li>
+							Volvo
+						</li>
+						<li>
+							ABC123
+						</li>
+						<li>
+							Blå
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="glyphicon glyphicon-minus" title="parent" id="liParent2">
+					<ul class="ulChildMax" title="child" id="ulChild2">
+						<li>
+							Fiat
+						</li>
+						<li>
+							BCA231
+						</li>
+						<li>
+							Grön
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="glyphicon glyphicon-minus" title="parent" id="liParent3">
+					<ul class="ulChildMax" title="child" id="ulChild3">
+						<li>
+							Audi
+						</li>
+						<li>
+							CBA321
+						</li>
+						<li>
+							Svart
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li  class="glyphicon glyphicon-minus" title="parent" id="liParent4">
+					<ul class="ulChildMax" title="child" id="ulChild4">
+						<li>
+							Saab
+						</li>
+						<li>
+							QWE123
+						</li>
+						<li>
+							Röd
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+
+	   <script type="text/javascript" src="Lab3.js"></script>
+
+		<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		-->
+	</body>
+
+</html>
